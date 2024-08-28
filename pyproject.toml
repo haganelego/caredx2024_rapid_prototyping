@@ -5,7 +5,17 @@ description = "Add your description here"
 authors = [
     { name = "haganelego", email = "hagane01061998@icloud.com" }
 ]
-dependencies = []
+dependencies = [
+    "jupyter>=1.0.0",
+    "jupyterlab>=4.2.5",
+    "tqdm>=4.66.5",
+    "numpy>=2.1.0",
+    "matplotlib>=3.9.2",
+    "pygad>=3.3.1",
+    "isort>=5.13.2",
+    "black>=24.8.0",
+    "nbqa>=1.9.0",
+]
 readme = "README.md"
 requires-python = ">= 3.8"
 
