@@ -100,7 +100,7 @@ def solve_mtsp(n_users, depot, forbidden_users_1, forbidden_users_2, forbidden_u
                 plt.annotate('', xy=users[route[i+1]], xytext=users[route[i]],
                              arrowprops=dict(arrowstyle='->', color=colors[k], lw=1.5))
 
-        plt.title('Multiple Traveling Salesmen Problem Solution')
+        plt.title('Human Care Crew Scheduling Problem Solution')
         plt.legend()
         plt.grid(True)
         
