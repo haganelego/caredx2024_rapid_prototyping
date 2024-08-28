@@ -52,6 +52,8 @@ cloudpickle==3.0.0
 comm==0.2.2
     # via ipykernel
     # via ipywidgets
+comm==0.2.2
+    # via ipykernel
 contourpy==1.3.0
     # via matplotlib
 cycler==0.12.1
@@ -97,6 +99,11 @@ isoduration==20.11.0
     # via jsonschema
 isort==5.13.2
     # via caredx2024-rapid-prototyping
+    # via jupyterlab
+ipython==8.26.0
+    # via ipykernel
+isoduration==20.11.0
+    # via jsonschema
 jedi==0.19.1
     # via ipython
 jinja2==3.1.4
@@ -128,6 +135,13 @@ jupyter-core==5.7.2
     # via ipykernel
     # via jupyter-client
     # via jupyter-console
+jupyter-client==8.6.2
+    # via ipykernel
+    # via jupyter-server
+    # via nbclient
+jupyter-core==5.7.2
+    # via ipykernel
+    # via jupyter-client
     # via jupyter-server
     # via jupyterlab
     # via nbclient
@@ -175,6 +189,9 @@ nbclient==0.10.0
     # via nbconvert
 nbconvert==7.16.4
     # via jupyter
+nbclient==0.10.0
+    # via nbconvert
+nbconvert==7.16.4
     # via jupyter-server
 nbformat==5.10.4
     # via jupyter-server
@@ -198,6 +215,18 @@ overrides==7.7.0
     # via jupyter-server
 packaging==24.1
     # via black
+nest-asyncio==1.6.0
+    # via ipykernel
+networkx==3.3
+    # via caredx2024-rapid-prototyping
+notebook-shim==0.2.4
+    # via jupyterlab
+numpy==2.1.0
+    # via contourpy
+    # via matplotlib
+overrides==7.7.0
+    # via jupyter-server
+packaging==24.1
     # via ipykernel
     # via jupyter-server
     # via jupyterlab
@@ -242,6 +271,15 @@ pygments==2.18.0
     # via jupyter-console
     # via nbconvert
     # via qtconsole
+pulp==2.9.0
+    # via caredx2024-rapid-prototyping
+pure-eval==0.2.3
+    # via stack-data
+pycparser==2.22
+    # via cffi
+pygments==2.18.0
+    # via ipython
+    # via nbconvert
 pyparsing==3.1.4
     # via matplotlib
 python-dateutil==2.9.0.post0
@@ -262,6 +300,7 @@ qtconsole==5.5.2
     # via jupyter
 qtpy==2.4.1
     # via qtconsole
+    # via jupyter-server
 referencing==0.35.1
     # via jsonschema
     # via jsonschema-specifications
@@ -311,6 +350,7 @@ tornado==6.4.1
     # via terminado
 tqdm==4.66.5
     # via caredx2024-rapid-prototyping
+    # via terminado
 traitlets==5.14.3
     # via comm
     # via ipykernel
@@ -318,6 +358,7 @@ traitlets==5.14.3
     # via ipywidgets
     # via jupyter-client
     # via jupyter-console
+    # via jupyter-client
     # via jupyter-core
     # via jupyter-events
     # via jupyter-server
