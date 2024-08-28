@@ -132,7 +132,7 @@ def main(seed, share):
             gr.Slider(minimum=100, maximum=500, step=10, label="Max Cost for staff 4", value=200),
         ],
         outputs=gr.Image(type="filepath", label="MTSP Solution"),
-        title="Multiple Traveling Salesmen Problem Solver",
+        title="Human Care Crew Scheduling Problem Solution",
         description="Enter the number of users, depot location, forbidden users for each staff, and maximum costs.",
     )
 
